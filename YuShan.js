@@ -1,7 +1,8 @@
 function password(pwd) {
+  event.preventDefault();
   if (pwd == "玉山") {
-    alert("真不愧是你呢");
-    location.href = ".";
+    alert("你真厲害");
+    window.location.href = "./RingBell.html";
   } else {
     alert("Denied !");
   }
