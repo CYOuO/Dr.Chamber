@@ -99,11 +99,15 @@ body{
     position: fixed;
 }
 
-.game_img{
+.game_img,.game_img2{
     width: auto;
     height: 95%;
     margin: auto;
     /* position: fixed; */
+}
+
+.game_img2:hover{
+    cursor: pointer;
 }
 
 .instruction{
