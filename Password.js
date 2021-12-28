@@ -11,7 +11,7 @@ function password(pwd) {
 function password1(pwd) {
   event.preventDefault();
   if (pwd == "海老茶色") {
-    alert("想到了！");
+    alert("對！我想起來了！");
     window.location.href = "./Scripts/000.html";
   } else {
     alert("我記得不是這個！");
