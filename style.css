@@ -184,7 +184,7 @@ form{
     
 }
 
-next_word{
+.next_word{
     width: 7%;
     position: absolute;
     left: 77%;
