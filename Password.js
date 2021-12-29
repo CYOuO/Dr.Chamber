@@ -50,7 +50,7 @@ function password5(pwd) {
   event.preventDefault();
   if (pwd == "浪漫") {
     alert("沒錯，正是這種浪漫的氛圍渲染了整個大正時代");
-    window.location.href = "./RingBell.html";
+    window.location.href = "./Scripts/004.html";
   } else {
     alert("Denied !");
   }
