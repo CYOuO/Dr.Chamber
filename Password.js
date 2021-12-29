@@ -20,10 +20,10 @@ function password1(pwd) {
 
 function password2(pwd) {
   if (pwd == "4341034") {
-    alert("真不愧是你呢");
-    location.href = ".";
+    alert("解開鎖了!");
+    location.href = "./MusicSheet.html";
   } else {
-    alert("Denied !");
+    alert("錯了...好好觀察一下樂譜封面喔!");
   }
 }
 
