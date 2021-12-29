@@ -200,3 +200,9 @@ form{
     transform: scale(1.05);
     cursor: pointer;
 }
+
+
+.music{
+    position: absolute;
+    top: 93%;
+}
