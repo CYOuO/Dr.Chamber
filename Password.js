@@ -30,11 +30,11 @@ function password2(pwd) {
 
 function password3(pwd) {
   event.preventDefault();
-  if (pwd == "4532293300") {
-    alert("真不愧是你呢");
+  if (pwd == "竹久夢二") {
+    alert("沒錯！就是竹久夢二！");
     location.href = "./Scripts/007.html";
   } else {
-    alert("Denied !");
+    alert("記得不是這個！");
   }
 }
 
