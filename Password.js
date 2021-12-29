@@ -11,8 +11,8 @@ function password(pwd) {
 function password1(pwd) {
   event.preventDefault();
   if (pwd == "海老茶色") {
-    alert("對！想起來了！");
-    window.location.href = "./Scripts/000.html";
+    alert("對！就是海老茶色！");
+    window.location.href = "./Scripts/003.html";
   } else {
     alert("記得不是這個！");
   }
@@ -39,10 +39,10 @@ function password3(pwd) {
 function password4(pwd) {
   event.preventDefault();
   if (pwd == "74206581") {
-    alert("你真厲害");
-    window.location.href = "./RingBell.html";
+    alert("解開鎖了");
+    window.location.href = "./Scripts/002.html";
   } else {
-    alert("Denied !");
+    alert("錯誤");
   }
 }
 
