@@ -55,3 +55,13 @@ function password5(pwd) {
     alert("Denied !");
   }
 }
+
+function password6(pwd) {
+  event.preventDefault();
+  if (pwd == "咖哩飯 炸豬排") {
+    alert("沒想到被妳猜對了！");
+    window.location.href = "./Scripts/008.html";
+  } else {
+    alert("記得不是這個！");
+  }
+}
