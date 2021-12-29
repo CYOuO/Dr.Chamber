@@ -19,6 +19,7 @@ function password1(pwd) {
 }
 
 function password2(pwd) {
+  event.preventDefault();
   if (pwd == "4341034") {
     alert("解開鎖了!");
     location.href = "./Scripts/006.html";
@@ -28,9 +29,10 @@ function password2(pwd) {
 }
 
 function password3(pwd) {
+  event.preventDefault();
   if (pwd == "4532293300") {
     alert("真不愧是你呢");
-    location.href = ".";
+    location.href = "./Scripts/007.html";
   } else {
     alert("Denied !");
   }
