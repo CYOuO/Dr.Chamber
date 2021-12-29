@@ -65,3 +65,13 @@ function password6(pwd) {
     alert("記得不是這個！");
   }
 }
+
+function password7(pwd) {
+  event.preventDefault();
+  if (pwd == "三味線") {
+    alert("當然是三味線啦！");
+    window.location.href = "./Scripts/005.html";
+  } else {
+    alert("記得不是這個！");
+  }
+}
