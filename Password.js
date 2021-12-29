@@ -40,7 +40,7 @@ function password3(pwd) {
 
 function password4(pwd) {
   event.preventDefault();
-  if (pwd == "1480") {
+  if (pwd == "14806527") {
     alert("解開鎖了");
     window.location.href = "./Scripts/002.html";
   } else {
