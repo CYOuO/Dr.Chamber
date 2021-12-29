@@ -90,12 +90,19 @@ body{
     transform: translate(-50%, -1%);
 }
 
-.game{
+.game2{
     width: 60%;
     height: 73%;
     text-align: center;
     float:left;
     background-image: url("image/table.jpg");
+    position: fixed;
+}
+.game{
+    width: 60%;
+    height: 73%;
+    text-align: center;
+    float:left;
     position: fixed;
 }
 
@@ -183,14 +190,3 @@ form{
     background-color: #8c4545;
     
 }
-
-.next_word{
-    width: 7%;
-    position: absolute;
-    left: 77%;
-}
-.next_word:hover{
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
